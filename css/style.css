@@ -1,6 +1,6 @@
 body {
     background-color: #f4f4f4;  /* Gris claro */
-    background-image: url(/src/img/double-bubble-outline.webp);
+    background-image: url(./src/img/double-bubble-outline.webp);
     background-repeat: repeat;
   }
   
