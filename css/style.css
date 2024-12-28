@@ -1,23 +1,49 @@
-body {
-    background-color: #f4f4f4;  /* Gris claro */
-    background-image: url(./src/img/double-bubble-outline.webp);
-    background-repeat: repeat;
-  }
-  
+body{
+    background-color: #000000;
+    background-image: url(../src/img/pngegg\ \(8\).png);
+    background-size: cover;
+}
+.contenedor_principal{
+    margin: 15px;
+}
 .color_principal {
-    background: #1a237e; /* Indigo dark */
-    background: -webkit-linear-gradient(to left, #1a237e, #5c6bc0, #1a237e);  
-    background: linear-gradient(to left, #1a237e, #5c6bc0, #1a237e); 
+    background-color: rgba(65, 49, 104, 0.5);
+    margin: auto;
+    width: 95%;
 }
 
-.color_izquierdo {
-    background: #00897b; /* Teal */
-    background: -webkit-linear-gradient(to left, #26c6da, #00897b);  
-    background: linear-gradient(to left, #26c6da, #00897b); 
+.img_foto_perfil{
+    border-radius: 50%; 
+    width: 200px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7); /* Sombra neón */
+    border: 5px solid rgba(0, 255, 255, 0.8); /* Borde de neón */
+    transition: all 0.3s ease;
 }
 
-.color_derecho {
-    background: #90a4ae; /* Blue grey */
-    background: -webkit-linear-gradient(to left, #90a4ae, #657e8a);  
-    background: linear-gradient(to left, #eaeaea,#2ad6ed, #29d0e6); 
+.img_foto_perfil:hover{
+    box-shadow: 0 0 25px 10px rgba(0, 255, 255, 1); /* Aumenta el resalte en hover */
+    transform: scale(1.05);
 }
+.text_descripcion_perfil{
+    padding: 5%;
+    background-color: rgba(49, 64, 104, 0.9);
+    border-radius: 15% 3% 15% 3%;
+}
+.text_HA{
+    padding: 5%;
+    background-color: rgba(49, 99, 104, 0.9);
+    border-radius: 15% 3% 15% 3%;
+}
+.text_HD{
+    padding: 5%;
+    background-color: rgba(73, 49, 104, 0.9);
+    border-radius: 15% 3% 15% 3%;
+}
+
+.fondo_derecho{
+    margin-top: 2%;
+    padding: 5%;
+    background-color: rgba(49, 104, 99, 0.9);
+    border-radius: 2% 2% 2% 2%;
+}
+
